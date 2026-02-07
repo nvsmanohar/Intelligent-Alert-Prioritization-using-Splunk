@@ -1,4 +1,4 @@
-# Intelligent Alert Prioritization using Splunk
+## Intelligent Alert Prioritization using Splunk
 This project  proposes an explainable alert prioritization framework that integrates a Technical Risk Score with a novel Stress Score to account for alert repetition
 # Abstract 
 Security Information and Event Management (SIEM) systems generate an overwhelming number of alerts, leading to alert fatigue and delayed inci- dent response. Existing SIEM solutions primarily rely on severity based risk scores, neglecting alert frequency. This paper proposes an explainable alert prioritization framework that integrates a Technical Risk Score with a novel Stress Score to account for alert repetition. A mathematical scoring model and rule based prioritization mechanism dynamically adapt to burst alert conditions. The approach is implemented in Splunk and evaluated using real time system logs and large scale synthetic datasets. Experimental results show an estimated alert reduction of 65% and analyst time savings of up to 83%, demonstrating improved alert handling efficiency. The proposed framework is transparent, scalable, and suitable for practical SOC deployments.
